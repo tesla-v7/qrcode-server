@@ -45,7 +45,7 @@ numberOfThreads=1
 template="{\"id\": %d}"
 ```
 
-#Build
+# Build
 ```
 ./build.sh
 ```
