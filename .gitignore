@@ -1,0 +1,6 @@
+.idea
+*.dll
+*.dylib
+*.exe
+*.exe~
+*.so
