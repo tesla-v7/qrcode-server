@@ -4,7 +4,7 @@
 
 1) Clone project
 ```
-git clone
+git clone https://github.com/tesla-v7/qrcode-server.git
 ```
 2) Change folder
 ```
@@ -63,7 +63,9 @@ Result
 ```
 {"id":9281,"qrBase64":"data:image/png;base64,iVBOR...kJggg=="}
 ```
-qr-code result image [qrResult.png](qrResult.png)
+qr-code result image:
+ 
+![qrResult.png](qrResult.png) 
 
 ## Authors
 
