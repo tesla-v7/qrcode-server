@@ -1,6 +1,6 @@
-#Generation of one-time qr codes.
+# Generation of one-time qr codes.
 
-###Instaling
+### Instaling
 
 1) Clone project
 ```
@@ -50,12 +50,12 @@ template="{\"id\": %d}"
 ./build.sh
 ```
 
-#Run
+# Run
 ```
 ./qr-code s --listen 0.0.0.0:3344
 ```
 
-#View result
+# View result
 ```
 curl http://0.0.0.0:3344/qrCode
 ```
