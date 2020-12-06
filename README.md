@@ -63,6 +63,7 @@ Result
 ```
 {"id":9281,"qrBase64":"data:image/png;base64,iVBOR...kJggg=="}
 ```
+qr-code result image [qrResult.png](qrResult.png)
 
 ## Authors
 
