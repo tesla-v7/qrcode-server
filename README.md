@@ -3,15 +3,15 @@
 ### Instaling
 
 1) Clone project
-```
+```bash
 git clone https://github.com/tesla-v7/qrcode-server.git
 ```
 2) Change folder
-```
+```bash
 cd  qrcode-server
 ```
 3) Configure your config.toml
-```
+```toml
 [qr]
 
 #maximum identifier value
@@ -46,21 +46,21 @@ template="{\"id\": %d}"
 ```
 
 # Build
-```
+```bashbash
 ./build.sh
 ```
 
 # Run
-```
+```bash
 ./qr-code s --listen 0.0.0.0:3344
 ```
 
 # View result
-```
+```bash
 curl http://0.0.0.0:3344/qrCode
 ```
 Result
-```
+```json
 {"id":9281,"qrBase64":"data:image/png;base64,iVBOR...kJggg=="}
 ```
 qr-code result image:
